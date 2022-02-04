@@ -28,7 +28,7 @@
 .wrapper:hover > .content {
   height: 200px;
   width: 300px;
-  transform: translate(calc(-210px), -100px)
+  transform: translate(calc(-110px), -100px)
 }
 
  .content {
@@ -38,15 +38,16 @@
   background-color: black;
   transition: all ease-out .3s;
   border-radius: 4px;
+  overflow: hidden;
 } 
 
 .left-bracket-wrapper,
 .right-bracket-wrapper {
   width: 50%;
   height: 100%;
-  overflow: hidden;
   position: absolute;
   transition: all ease-out .3s;
+  overflow: hidden;
 }
 
 .left-bracket-wrapper {
