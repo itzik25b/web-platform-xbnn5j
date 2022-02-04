@@ -1,3 +1,4 @@
+
 .wrapper {
   position: absolute;
   bottom: 20px;
@@ -12,11 +13,18 @@
   transform: translateX(-100%);
 }
 
+.wrapper:hover > .content {
+  height: 200px;
+  width: 300px;
+  transform: translate(-200px, -100px)
+}
+
  .content {
-  width: 100%;
-  height: 100%;
+  width: 100px;
+  height: 100px;
   position: absolute;
   background-color: yellow;
+  transition: all ease-out .3s;
 } 
 
 .left-bracket-wrapper,
