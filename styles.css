@@ -48,10 +48,12 @@
   background-color: black;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
+  background-image: url('image.png');
 }
 
 .right-bracket {
   background-color: blue;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
+  background-image: url('image.png');
 }
